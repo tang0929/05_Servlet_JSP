@@ -15,7 +15,42 @@
 
     <!-- 피자 주문 요청 -> 영수증 응답 -->
 
-    피자 선택 : 
+    <form action="/ex3" method="get">
+
+    - 피자 선택 
+    <select name="pizza" id="pizza">
+        <option value="치즈 피자">치즈 피자 (18000)</option>
+        <option value="포테이토 피자">포테이토 피자 (19000)</option>
+        <option value="불고기 피자">불고기 피자 (20000)</option>
+        <option value="콤비네이션 피자">콤비네이션피자 (19000)</option>
+        <option value="페퍼로니 피자">페퍼로니피자 (19000)</option>
+        <br>
+        
+    </select>
+    <hr>
+    - 피자 사이즈 <br><br>
+    Regular <input type="radio" name="size" value="regular"> <br><br>
+    Large(+3000) <input type="radio" name="size" value="large">
+    <br><br>
+    <hr>
+   
+    - 사이드 메뉴 <br><br>
+    <input type="checkbox" name="sideMenu" value="치즈스파게티">치즈스파게티 (+6000) <br>
+    <input type="checkbox" name="sideMenu" value="치킨텐더">치킨텐더 (+5000) <br>
+    <input type="checkbox" name="sideMenu" value="치즈볼">치즈볼 (+4000) <br>
+    <input type="checkbox" name="sideMenu" value="콜라">콜라 1.5L (+1500) <br>
+    <input type="checkbox" name="sideMenu" value="피클">피클 (+0) <br>
+    <hr>
+    - 주문 <br><br>
+    주문자 이름 : <input type="text" name="orderer" size="10"><br>
+    전화번호 : <input type="number" name="phoneNumber"><br>
+    주소 : <input type="text" name="address" size="50"><br>
     
+    <button>주문하기</button>
+
+
+
+
+</form>
 </body>
 </html>

@@ -57,10 +57,10 @@ public class ExampleServlet2 extends HttpServlet {
 		int price = 0;
 		
 		switch(chicken) {
-		case "후라이드" : price += 20000; break;
-		case "양념" : price += 22000; break;
-		case "마늘" : 
-		case "간장" : price += 22000; break;
+		case "fried" : price += 20000; break;
+		case "sauce" : price += 22000; break;
+		case "soy" : 
+		case "garlic" : price += 22000; break;
 		
 		}
 		
